@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Generation | Design</title>
+</head>
+<body>
+    
+    <h1>Color Generator</h1>
+   
+    <div id="container">
+
+        <p id="show-color"></p>
+
+        <input type="text"  id="color" readonly>
+
+       <div id="light">
+        <button id="hex" onclick="CopyHEX()">Copy to Hex</button>
+
+        <button id="generate">Generate</button>
+
+        <button id="rgb" onclick="RGB()">Copy to RGB</button>
+
+        <button onclick="reset()" id="noble">Reset</button>
+       </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

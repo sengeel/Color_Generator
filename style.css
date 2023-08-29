@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: rgba(172, 20, 20, 0.5);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#show-color{
+    margin: 30px 10px;
+    text-align: center;
+    font-size: 40px;
+    color: '';
+
+}
+
+#light{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+
+}
+
+
+#hex{
+    color: white;
+    background-color: lightgreen;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-right: 8px;
+}
+
+#rgb{
+    color: white;
+    background-color: lightgreen;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-right: 8px; 
+}
+
+#light :hover{
+    font-weight: bold;
+}
+
+#color{
+    width: 95%;
+    height: 200px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#generate{
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 3px;
+    /* margin-left: 40%; */
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+    border: none;
+    margin-right: 8px;
+}
+
+#noble{
+    color: white;
+    background-color: brown;
+    font-size: 15px;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
